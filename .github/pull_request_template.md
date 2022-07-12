@@ -1,6 +1,6 @@
 ## Summary
 
-Brief explanation of the proposed changes.
+Brief explanation of the experiment or documentation.
 
 ## Basic example
 
@@ -8,11 +8,8 @@ Include a basic example, screenshots, or links.
 
 ## Motivation
 
-Why are we doing this? What use cases does it support? What is the expected outcome?
+Why are we doing this?
 
 ## Checks
 
 - [ ] Read [Create a Pull Request](https://getdoks.org/docs/contributing/how-to-contribute/#create-a-pull-request)
-- [ ] Supports all screen sizes (if relevant)
-- [ ] Supports both light and dark mode (if relevant)
-- [ ] Passes `npm run test`
