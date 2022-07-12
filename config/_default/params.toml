@@ -10,7 +10,7 @@ description = "The Low Alcohol Beer Lab aims to document the tools, equipment, a
 docsVersion = "0.1"
 
 ## Open Graph
-images = ["doks.png"]
+images = ["lab.png"]
 ogLocale = "en_US"
 domainTLD = "lablab.dev"
 titleHome = "The Low Alcohol Beer Lab"
