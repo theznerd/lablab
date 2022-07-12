@@ -1,0 +1,46 @@
+{{ define "main" }}
+<section class="section container-fluid mt-n3 pb-3">
+  <div class="row justify-content-center">
+    <div class="col-lg-12 text-center">
+      <h1 class="mt-0">{{ .Title }}</h1>
+    </div>
+    <div class="col-lg-9 col-xl-8 text-center">
+      <p class="lead">{{ .Params.lead | safeHTML }}</p>
+      <a class="btn btn-primary btn-lg px-4 mb-2" href="/docs/{{ if .Site.Params.options.docsVersioning }}{{ .Site.Params.docsVersion }}/{{ end }}the-lab/introduction/" role="button">{{ i18n "get-started" }}</a>
+    </div>
+  </div>
+</section>
+{{ end }}
+
+{{ define "sidebar-prefooter" }}
+  {{ if eq $.Site.Language.LanguageName "English" }}
+  <section class="section section-sm">
+    <div class="container">
+      <div class="row justify-content-center text-center">
+        <div class="col-lg-5">
+          <h2 class="h4">For The Challenge ⛰️</h2>
+          <p>Every homebrewer we've met loves a good challenge... finding just the right ingredients... building a HERMS system. Accept a new challenge!</p>
+        </div>
+        <div class="col-lg-5">
+          <h2 class="h4">For Your Health ❤️‍🩹</h2>
+          <p>You enjoy drinking beer, so why not brew something that you can drink more of that actually tastes fantastic? No More Hangovers! No More Guilt!</p>
+        </div>
+        <div class="col-lg-5">
+          <h2 class="h4">For The Community 🏙️</h2>
+          <p>Our power comes in numbers. Let's not keep knowledge secret! Share what has worked and what hasn't worked. Let's collectively make good low alcohol beer.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  {{ end }}
+{{ end }}
+
+{{ define "sidebar-footer" }}
+<section class="section section-sm container-fluid">
+  <div class="row justify-content-center text-center">
+    <div class="col-lg-9">
+      {{- .Content -}}
+    </div>
+  </div>
+</section>
+{{ end }}
