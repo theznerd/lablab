@@ -1,5 +1,5 @@
 ---
-title : "The Lab Introduction"
+title : "The Lab"
 description: "Introduction to The Lab!"
 lead: ""
 date: 2022-07-11
