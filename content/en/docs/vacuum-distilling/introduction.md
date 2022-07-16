@@ -1,5 +1,5 @@
 ---
-title: "Vacuum Distilation"
+title: "Vacuum Distillation"
 description: "Vacuum distillation allows for a lower boiling point of liquids and therefore potential to reduce effects to beer flavor."
 lead: "Vacuum distillation allows for a lower boiling point of liquids and therefore potential to reduce effects to beer flavor."
 date: 2022-07-14
