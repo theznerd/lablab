@@ -22,7 +22,7 @@ images: []
     </div>
       </br>
     <div class="form-group">
-      <textarea class="form-control" id="message" rows="5" placeholder="Message..." required></textarea>
+      <textarea class="form-control" name="message" rows="5" placeholder="Message..." required></textarea>
     </div>
     </br>
     <input name="subscribe_0b93d40b88a8_39482" type="hidden">
